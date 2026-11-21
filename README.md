@@ -1,6 +1,6 @@
 # aicdemo
 
-Reproducible SEC-based comparison of Apple Inc. and Microsoft Corporation for their five most recent complete fiscal years. The pipeline produces a professional English equity research report in HTML, LaTeX and PDF, together with verified datasets, charts and a complete source manifest.
+Reproducible SEC-based comparison of Apple Inc. and Microsoft Corporation for their five most recent complete fiscal years. The project includes a professional English equity research report, verified datasets, seven charts and a complete source manifest. The canonical report source is `output/reports/apple_vs_microsoft_report.html`, and the official submission PDF is `output/reports/apple_vs_microsoft_report_final.pdf`.
 
 ## Build
 
@@ -12,7 +12,7 @@ python build_research.py --refresh
 
 The default build is cache-first and fetches only missing SEC files. `--offline` requires a complete local cache. `--refresh` replaces cached SEC responses. Set `SEC_USER_AGENT` to a descriptive SEC-compliant identity when refreshing.
 
-PDF compilation uses the existing TeX Live installation at `D:\texlive\2026\bin\windows`. No TeX installation is performed by the project.
+The analytical pipeline retains LaTeX rendering support and uses the existing TeX Live installation at `D:\texlive\2026\bin\windows` when that path is exercised. LaTeX compilation artifacts are treated as intermediate files and are not part of the final submitted report. The committed final PDF was printed directly from the canonical HTML report.
 
 ## Data and methodology
 
@@ -27,7 +27,7 @@ PDF compilation uses the existing TeX Live installation at `D:\texlive\2026\bin\
 
 - `output/figures/`: seven Python-generated charts.
 - `output/tables/`: five-year core financial data and latest-year comparison.
-- `output/reports/`: HTML, LaTeX, compiled PDF and build status.
-- `output/legacy/`: preserved copies of the original one-page memo artifacts.
+- `output/reports/`: canonical HTML report, final browser-rendered PDF, build status and Git history export.
+- `output/legacy/`: the original v1 build script and one HTML copy of the historical one-page memo.
 
 The build fails on missing facts, mixed accessions, incomplete annual series, non-finite calculations, failed inline-XBRL verification, an unexpected row count or a LaTeX compilation error.
