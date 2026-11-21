@@ -1,0 +1,5 @@
+* ad85223 (HEAD -> main) report: add final research deliverables
+* 22bcf32 docs: preserve original memo artifacts
+* 523aecb data: add cached SEC filings and verified datasets
+* 934c876 feat: add reproducible SEC research pipeline
+* a06b8c0 (origin/main, origin/HEAD) Initial commit
