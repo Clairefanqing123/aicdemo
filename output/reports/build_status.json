@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-11-21T17:47:53.450937+08:00",
+  "rows": 10,
+  "companies": [
+    "AAPL",
+    "MSFT"
+  ],
+  "raw_metrics_verified": 70,
+  "verification_passed": true,
+  "figures": 7,
+  "references": 12,
+  "pdf": {
+    "compiler": "D:\\texlive\\2026\\bin\\windows\\latexmk.exe",
+    "returncode": 0,
+    "pdf": "D:\\AI-Coding-Finance\\aicdemo\\output\\reports\\apple_vs_microsoft_report.pdf",
+    "log_tail": "/m/n/7 Absolute\n\nOverfull \\hbox (16.74878pt too wide) in paragraph at lines 36--37\n[][] [][]\\T1/phv/m/n/7 Absolute\n[5]\nOverfull \\hbox (17.89877pt too wide) in paragraph at lines 38--39\n[][][]\\T1/phv/m/n/7 Apple\n[6]\nOverfull \\hbox (28.39165pt too wide) in paragraph at lines 44--45\n[][][]\\T1/phv/m/n/7 Microsoft\n[7]\nOverfull \\hbox (12.0609pt too wide) in paragraph at lines 50--51\n[][][]\\T1/phv/m/n/7 The\n[8] [9]\nOverfull \\hbox (7.77689pt too wide) in paragraph at lines 70--70\n[][][]\\T1/phv/m/n/7 All\n[10] (d:/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd) [11]\n(./apple_vs_microsoft_report.aux) )\n(see the transcript file for additional information)\nOutput written on apple_vs_microsoft_report.xdv (11 pages, 45344 bytes).\nTranscript written on apple_vs_microsoft_report.log.\nLatexmk: Getting log file 'apple_vs_microsoft_report.log'\nLatexmk: Examining 'apple_vs_microsoft_report.fls'\nLatexmk: Examining 'apple_vs_microsoft_report.log'\nLatexmk: Log file says output to 'apple_vs_microsoft_report.xdv'\nLatexmk: applying rule 'xdvipdfmx'...\nRule 'xdvipdfmx':  Reasons for rerun\nChanged files or newly in use/created:\n  apple_vs_microsoft_report.xdv\nCategory 'changed_source_rules':\n  xelatex\nCategory 'no_dest':\n  xdvipdfmx\n\n------------\nRun number 1 of rule 'xdvipdfmx'\n------------\n------------\nRunning 'xdvipdfmx -E -o \"apple_vs_microsoft_report.pdf\"  \"apple_vs_microsoft_report.xdv\"'\n------------\nLatexmk: All targets (apple_vs_microsoft_report.xdv apple_vs_microsoft_report.pdf) are up-to-date\n\n"
+  }
+}
